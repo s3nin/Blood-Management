@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('bg_image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+image{
+    width: 70%;
+}
+.header
+{
+    height: 100vh;
+}
+.navbar-style
+{
+    background: whitesmoke;
+    box-shadow: 0 5px 10px #efefef;
+    font-weight: bold;
+}
+
+.icon-bar
+{
+    background:darkorange;
+}
+
+li a{
+    color:darkblue;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color:black;
+    text-shadow: blanchedalmond;
+    font-weight: 200;
+}
+.b-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkred;
+    font-weight: bold;
+}
+.another-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    padding: 0 100px;
+    text-align: justify;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position:relative;
+    margin:6% auto;
+    background: #efefef;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    position:relative;
+    margin:35px auto;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle_button{
+    padding: 10px 30px;
+    cursor: pointer;
+    position: relative;
+    background: transparent;
+    border: 0;
+}
+#btn{
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    transition: 0.5s;
+}
+.inpt{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.inpt-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    background: transparent;
+    outline: none;
+}
+.submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin:10px auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border:0;
+    border-radius: 30px;
+    outline: none;
+}
+#Login{
+    left: 50px;
+}
+#Register{
+    left: 450px;
+}
+.logout{
+    position: relative;
+    margin: auto 45%;
+    margin-top: 20%;
+}
+.lgout_txt{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 30%;
+    color: rgb(4, 3, 44);
+}
